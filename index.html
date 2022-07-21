@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Test Getmore | Brandon Palomo</title>
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!--<link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>-->
+	<link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
+                
+
+</head>
+
+<body>
+
+    <header id="header_frame">
+        <div class="logo">
+           
+            <!--<i class="far fa-lightbulb"></i>ESSENCE</a>-->
+			<img src="assets/img/fill-2.png"
+     srcset="assets/img/fill-2@2x.png 2x,
+	 assets/img/fill-2@3x.png 3x">
+        </div>
+            <input type="checkbox" id="check">
+            <nav>
+                <ul>
+                    <li class="active"><a href="#home">Inicio</a></li>
+                    <li><a id="header_text_frame" href="#services">Acerca de nosotros</a></li>
+                    <li><a id="header_text_frame_2" href="#features">Historia</a></li>
+                    <li><a id="header_text_frame_3" href="#works">Contacto</a></li>
+                </ul>
+            </nav>
+                <label for="check"><span></span></label>
+    </header>
+                
+    <div id="home" class="hero-container">
+		<div> 
+			<h1 class="Las-mejores-raquetas Text-Style-4">Las mejores raquetas para <br> jugar <span class="Text-Style">Tennis</span></h1>
+			<!--<h3>Cutting Edge Features</h3>
+			<p>Parallax, Video, Product, Premium Addons and.<br> More...</p>-->
+            <br><br>
+			<a href="#" class="Rectangle-btn"><span class="ACERCA-DE-NOSOTROS Text-Style-11">ACERCA DE NOSOTROS</span></a>
+
+		</div>
+        
+    </div>
+              
+    <div id="services" class="services-container">
+        <div class="service-header">
+            <h2  class="RaquetasAccesorios">Raquetas.Accesorios.<br>Pelotas.</h2>
+            <div>
+                <p class="Conoce-nuestras-raqu Text-Style-3">Conoce nuestras raquetas y aprende a jugar Tennis como un profesional</p>
+                <a href="#" class="Rectangle-btn-2"><span class="HISTORIA Text-Style-13">HISTORIA</span></a>
+            </div>
+           
+        </div>
+              
+        
+    </div>
+              
+    <div id="features" class="why-container">
+       
+       
+        <img src="assets/img/ball-color-court-1405355.jpg"
+        srcset="assets/img/ball-color-court-1405355@2x.jpg 2x,
+        assets/img/ball-color-court-1405355@3x.jpg 3x"
+        class="ball-color-court-1405355">
+
+        <h2 class="Nuestras-Raquetas"><span class="Text-Style-2">Nuestras</span> 
+            <span class="Text-Style-14">Raquetas</span>
+            </h2>
+
+       <p class="Conoce-nuestras-raqu-2"><span class="Text-Style-15">
+        Conoce nuestras raquetas y aprende a jugar Tennis cómo un profesional.
+      </span></p>
+        
+
+
+        
+     <img src="assets/img/group-10.png"
+     srcset="assets/img/group-10@2x.png 2x,
+     assets/img/group-10@3x.png 3x"
+     class="Group-10">
+
+     <img src="assets/img/group-10.png"
+     srcset="assets/img/group-10@2x.png 2x,
+     assets/img/group-10@3x.png 3x"
+     class="Group-11">
+
+    </div>  
+              
+    
+    
+    
+              
+    
+    
+               
+    
+              
+    <div class="purchase-container">
+        
+    </div>
+              
+              
+    <div id="contact" class="contact-container">
+        
+        <span class="Inicio-Acerca-de-nos-footer">
+            <span class="text-style-1">Inicio</span> &nbsp; &nbsp; Acerca de nosotros     &nbsp; &nbsp;     Historia    &nbsp; &nbsp;      Contacto
+          </span> 
+          
+          <div class="footer-social">
+            <!-- LinkedIn-->
+
+            <!-- png -->
+
+<img src="assets/img/group-23.png"
+srcset="assets/img/group-23@2x.png 2x,
+assets/img/group-23@3x.png 3x"
+class="Group-23">
+
+<!-- V -->
+
+<img src="assets/img/group-24.png"
+     srcset="assets/img/group-24@2x.png 2x,
+     assets/img/group-24@3x.png 3x"
+     class="Group-24">
+
+
+     <!-- T -->
+
+     <img src="assets/img/group-25.png"
+     srcset="assets/img/group-25@2x.png 2x,
+     assets/img/group-25@3x.png 3x"
+     class="Group-25">
+
+     <!-- F -->
+
+
+     <img src="assets/img/group-22.png"
+     srcset="assets/img/group-22@2x.png 2x,
+     assets/img/group-22@3x.png 3x"
+     class="Group-22">
+
+     <!-- Fb -->
+
+
+     <img src="assets/img/group-26.png"
+     srcset="assets/img/group-26@2x.png 2x,
+     assets/img/group-26@3x.png 3x"
+     class="Group-26">
+
+          </div>
+    </div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+
+jQuery(window).on('scroll', function() {
+    if(jQuery(window).scrollTop() > 300) {
+        jQuery('#header_frame').css('background-color', '#FFFFFF');
+        jQuery('#header_text_frame').css('color', '#000000');
+        jQuery('#header_text_frame_2').css('color', '#000000');
+        jQuery('#header_text_frame_3').css('color', '#000000');
+    } else {
+       jQuery('#header_frame').css('background-color', 'transparent');
+       jQuery('#header_text_frame').css('color', '#FFFFFF');
+       jQuery('#header_text_frame_2').css('color', '#FFFFFF');
+       jQuery('#header_text_frame_3').css('color', '#FFFFFF');
+    }
+});
+
+</script>
+<script>
+
+	$(document).ready(function(){
+
+		var showHeaderAt = 150;
+
+		var win = $(window),
+				body = $('body');
+
+		// Show the fixed header only on larger screen devices
+
+		if(win.width() > 400){
+
+			// When we scroll more than 150px down, we set the
+			// "fixed" class on the body element.
+
+			win.on('scroll', function(e){
+
+				if(win.scrollTop() > showHeaderAt) {
+					body.addClass('fixed');
+				}
+				else {
+					body.removeClass('fixed');
+				}
+			});
+
+		}
+
+	});
+
+</script>
+
+
+
+
+
+</body>
+
+</html>
